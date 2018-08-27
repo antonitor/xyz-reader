@@ -18,11 +18,27 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:textColorHighlight">@color/theme_accent</item>
     </style>
 
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    <style name="card_title_style" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">@color/white_text</item>
+        <item name="android:fontFamily">bold</item>
+        <item name="android:textSize">18sp</item>
     </style>
+    <style name="card_subtitle_style">
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="app_bar_elevation">
+    </style>
+
+
+
 
 </resources>
